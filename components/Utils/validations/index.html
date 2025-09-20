@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="">
+            <div class="form-input">
+                <h3>Texto</h3>
+                <input special-charts="true" type="text">
+                <div class="valid-feedback">¡Se ve bien!</div>
+                <div class="invalid-feedback">Por favor, introduce el nombre del modelo.</div>
+            </div>
+
+            <h3>Búsqueda</h3>
+            <input type="search">
+
+            <h3>Email</h3>
+            <input type="email">
+
+            <h3>URL</h3>
+            <input type="url">
+
+            <h3>Teléfono</h3>
+            <input type="tel">
+
+            <h3>Contraseña</h3>
+            <input type="password">
+
+            <h3>Número</h3>
+            <input type="number">
+
+            <h3>Rango</h3>
+            <input type="range">
+
+            <h3>Color</h3>
+            <input type="color">
+
+            <h3>Fecha</h3>
+            <input type="date">
+
+            <h3>Mes</h3>
+            <input type="month">
+
+            <h3>Semana</h3>
+            <input type="week">
+
+            <h3>Hora</h3>
+            <input type="time">
+
+            <h3>Fecha y hora local</h3>
+            <input type="datetime-local">
+
+            <h3>Archivo</h3>
+            <input type="file">
+
+            <h3>Imagen (input type="image")</h3>
+            <input type="image" src="https://fcklassic.com/img/logo.png" alt="Botón imagen">
+
+            <h3>Checkbox</h3>
+            <input type="checkbox"> Acepto
+
+            <h3>Radio</h3>
+            <input type="radio" name="radio"> Opción A
+            <input type="radio" name="radio"> Opción B
+
+            <h3>Botón Reset</h3>
+            <input type="reset" value="Resetear">
+
+            <h3>Botón Genérico</h3>
+            <input type="button" value="Botón">
+
+            <h3>Select</h3>
+            <select>
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+            </select>
+
+            <h3>Textarea</h3>
+            <textarea></textarea>
+
+            <h3>Datalist</h3>
+            <input list="opciones">
+            <datalist id="opciones">
+                <option value="Opción A">
+                <option value="Opción B">
+            </datalist>
+
+            <h3>Fieldset con Legend</h3>
+            <fieldset>
+                <legend>Título del grupo</legend>
+                <input type="text" placeholder="Dentro de fieldset">
+            </fieldset>
+
+            <h3>Label</h3>
+            <label for="campo">Etiqueta:</label>
+            <input id="campo" type="text">
+
+            <h3>Output</h3>
+            <output>123</output>
+
+            <h3>Progress</h3>
+            <progress value="50" max="100"></progress>
+
+            <h3>Meter</h3>
+            <meter value="0.7"></meter>
+
+            <h3>Botón Submit</h3>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
